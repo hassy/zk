@@ -1,0 +1,37 @@
+body { font-family:Verdana; font-size:8.5pt; }
+td { font-family:Verdana; font-size:8.5pt; line-height:138%; }
+blockquote {line-height:122%; }
+p { margin-bottom:15px; }
+
+a:link    { color:#222222; }
+a:visited { color:#444444; }
+b { color:#333333; }
+
+.foot { font-size:7.5pt; }
+.foot a:link, .foot a:visited { text-decoration:none; }
+.foot a:hover { text-decoration:underline; }
+
+.apply a:link { color:#0000ff; font-size:9pt; }
+.apply a:visited { color:#0000ff; font-size:9pt; }
+
+.subtext { font-family:Verdana; font-size:  7pt; color:#828282; }
+.comhead { font-family:Verdana; font-size:  8pt; color:#828282; }
+.comment { font-family:Verdana; font-size:  9pt; }
+.dead    { font-family:Verdana; font-size:  9pt; color:#dddddd; }
+
+.comment a:link, .comment a:visited { text-decoration:underline;}
+.dead a:link, .dead a:visited { color:#dddddd; }
+
+.subtext a:link, .subtext a:visited { color:#828282; }
+.subtext a:hover { text-decoration:underline; }
+
+.comhead a:link, .subtext a:visited { color:#828282; }
+.comhead a:hover { text-decoration:underline; }
+
+.title { font-size:10pt; }
+.title b { color:#000000; }
+
+.big { margin-top:3ex; }
+.small { margin-top:-1.6ex; }
+
+
