@@ -1,8 +1,27 @@
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="zk.css">
+<link rel="stylesheet" type="text/css" href="scrollable.css">
 <link rel="shortcut icon" href="favicon.ico">
 <title>Z Kombinator</title>
+<script src="jquery.tools.min.js"></script>
+<script>
+  $(function() {
+      setTimeout(function() {
+      $("#pics").scrollable({
+      clickable: false,
+      easing: "linear",
+      keyboard: false,
+      speed: 1000
+      }).circular().autoscroll({
+      autoplay: true,
+      steps: 1,
+      interval: 5000,
+      autopause: false
+      });
+      }, 1000);
+      });
+</script>
 </head>
 
 <body bgcolor=#ffffff>
@@ -13,10 +32,17 @@
 
 <!-- fafaf0 -->
 
-<a href="index.html"><img src="images/zk500.gif"
-border=0 width=500 height=100></a><br/>
+<a href="index.html"><img src="images/zk500.gif" border=0 width=500 height=100></a><br/>
 
-<img src="images/20110806_WBP003_0.jpg">
+<div class="scrollable" id="pics" style="height: 335px;">
+  <div class="items">
+    <img src="images/2.jpg" style="width: 662px; height: 335px;">
+    <img src="images/3.jpg" style="width: 662px; height: 335px;">
+    <img src="images/4.jpg" style="width: 662px; height: 335px;">
+    <img src="images/5.jpg" style="width: 662px; height: 335px;">
+    <img src="images/1.jpg" style="width: 662px; height: 335px;">
+  </div>
+</div>
 
 <table width=100% cellpadding=6 cellspacing=0>
 <tr><td bgcolor=#ddddff>  <!-- efea64 -->
@@ -72,7 +98,7 @@ Oliver Samwer <a href="http://techcrunch.com/2011/12/22/in-confidential-email-sa
 <tr><td bgcolor=#cdeb8b>
 <center>
 Let's make money!
-<a href="apply.html">Apply now</a>
+<a href="https://docs.google.com/spreadsheet/viewform?formkey=dHp1ZC03azkxaGR5b2ZKZ0J0RlV6Q0E6MQ#gid=0">Apply now</a>
 </center>
 </td></tr></table>
 </td></tr></table>
@@ -116,14 +142,27 @@ Let's make money!
 <p align=center>
 <span class=foot>
 <a href="apply.html">Apply</a> |
-<a href="http://ycombinator.posterous.com">Blog</a> |
+<a href="http://zkombinator.wordpress.com">Blog</a> |
 <a href="http://twitter.com/zkombinator">Twitter</a> |
-<a href="people.html">People</a> | 
-<a href="quotes.html">Quotes</a> |
-<a href="contact.html">Contact</a>
-| <a href="legal.html">Legal</a>
+<a href="#">People</a> | 
+<a href="#">Quotes</a> |
+<a href="#">Contact</a>
+| <a href="#">Legal</a>
 <br><br>
 </span>
 </td></tr></table>
 </center>
 </body>
+<!--
+ __________________________ 
+| this is obviously a joke |
+ -------------------------- 
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+This website is not affiliated with or endorsed by in any way by either
+the Samwer brothers or YCombinator.
+-->
